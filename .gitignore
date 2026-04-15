@@ -1,0 +1,55 @@
+# Vivado
+*.jou
+*.log
+*.pb
+*.dcp
+*.wdb
+*.wcfg
+*.str
+.Xil/
+
+# Quartus
+*.qws
+*.qpf
+*.qsf
+*.rpt
+*.smsg
+*.summary
+*.done
+*.jdi
+*.pin
+*.pof
+*.sof
+*.sld
+db/
+incremental_db/
+
+# Simulation (Verilator, ModelSim, Icarus, etc.)
+*.vcd
+*.fst
+obj_dir/
+work/
+csrc/
+simv
+simv.daidir/
+modelsim.ini
+transcript
+
+# Magic / Layout Tools
+*.mag
+*.ext
+*.spice
+*.sim
+*.nodes
+*.gds
+
+# Programming / Bitstreams
+*.bit
+*.bin
+*.hex
+*.mem
+
+# OS Specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
